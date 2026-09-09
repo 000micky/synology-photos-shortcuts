@@ -165,6 +165,12 @@ function tagPeople() {
   if (button) button.click();
 }
 
+// Action: Keep this, delete rest (Shift + K)
+function keepThis() {
+  const button = findButton('button.synofoto-menu-text-button', 'Keep this, delete rest');
+  if (button) button.click();
+}
+
 // Map key to actions (Shift + {Key})
 const actions = {
   'T': addTags,
@@ -172,6 +178,7 @@ const actions = {
   'A': addToAlbum,
   'D': download,
   'P': tagPeople,
+  'K': keepThis,
   'Tab': changeView,
   'Delete': deleteDialog,
   'Backspace': deleteDialog,

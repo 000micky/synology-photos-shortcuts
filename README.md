@@ -14,6 +14,7 @@ Synology didn’t add them. This extension does.
 - `Shift + D`: Download (original, not compressed)
 - `Shift + T`: Add tags
 - `Shift + P`: Tag people
+- `Shift + K`: Keep this, delete rest
 - `Shift + A`: Add to album
 - `Shift + Tab`: Switch folder / timeline view
 - `1` - `5`: Rate photo (1-5 stars)
